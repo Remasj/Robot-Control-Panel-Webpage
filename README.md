@@ -1,4 +1,4 @@
-# web.task1
+# eleceng.task1
 
 # Task name: Creating an algorithm for robotic legs movement
 
