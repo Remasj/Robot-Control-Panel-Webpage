@@ -19,7 +19,7 @@ Data is displayed in the table: actions.
 # Code for front end "hello.html"
 ```html
 <!DOCTYPE html>
-<html lang="en"> /*setting the langugae as english*/
+<html lang="en"> 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -96,7 +96,7 @@ Data is displayed in the table: actions.
   <title>Hello Page</title>
 </head>
 <body>
-  <div class="container"> //defines a container for positioning buttons
+  <div class="container"> 
     <button id="forward" onclick="sendAction('forward')">Forward</button>
        <button id="backward" onclick="sendAction('backward')">Backward</button>
        <button id="left" onclick="sendAction('left')">Left</button>
@@ -223,8 +223,11 @@ function sendAction(action) {
 }
 ```
 -Used javascript code in my frontend to send action to backend through POST request.
+
 -Is also used to alert the user in case of an error in fetching data from the backend.
+
 -Used (console.log) and (console.error) to log responses and errors which helps during development and debugging.
+
 -This function shortens the communication between the frontend and backend, which makes interaction based on user actions easier and updates the UI accordingly with data fetched from the server.
 
 
